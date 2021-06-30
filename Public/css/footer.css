@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+footer {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  footer i{
+    font-size: 2em;
+    color: #03264C;
+  }
+  footer h3{
+    font-size: 18px;
+    font-weight: bold;
+  }
+/*   .mainArticle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #iconoFooter {
+    color: #03264c;
+  }
+  .ftitulo {
+    font-size: 16px;
+  }
+  .fargument {
+    font-size: 12px;
+    color: #666;
+  } */
+

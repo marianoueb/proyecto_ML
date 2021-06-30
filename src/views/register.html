@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href = "/css/reset.css">
+    <link rel="stylesheet" href = "/css/normalize.css">
+    <link rel="stylesheet" href = "/css/footer.css">
+    <link rel="stylesheet" href = "/css/header.css">
+    <link rel="stylesheet" href = "/css/home.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+   
+
+</head>
+<html>
+<body>
+    <header class= "main-header">
+        <nav class= "main-header-top-bar">
+            <figure><img src = "/img/logo-mercado-liebre.svg" class = "logo"></figure>
+            <h2 class = "copy-header"> 
+                <i class="fas fa-search"></i>
+                <!-- <h2> Lugar para poner la barra de busqueda</h2> -->
+                <i class="fas fa-hand-holding-usd"></i>
+                Compra en cuotas y sin tarjeta de credito
+            </h2>
+        </nav>
+    
+            <a class="burger-menu">
+                <i class="fas fa-bars"></i>
+            </a>
+    
+        <nav class="main-navbar">   
+                <ul class = "left-navbar">
+                    <li><a href = "#">Ofertas</a></li>
+                    <li><a href = "#">Tiendas Oficiales</a></li>
+                    <li><a href = '#'>Vender</a></li>
+                    <li><a href = '#'>Ayuda</a></li>
+                </ul>
+             
+                <ul class = "rigth-navbar">
+                    <li><a href = "/register.html">Crea tu cuenta</a><i class="far fa-id-card"></i></li>
+                    <li><a href = "/login.html">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
+                    <li><a href = ''>Mis Compras</a><i class="fas fa-shopping-basket"></i></li>
+                </ul>
+            </nav>  
+            <figure>
+                <img src = "/img/img-home-banner.jpg" alt = 'Imagen de Banner'>
+            </figure>
+        
+        </header>
+        
+    <h1>Registro de Usuario</h1>
+
+<form action="#.html" method="POST"></form>
+
+    <input type="text" name="name" placeholder="Nombre y Apellido" id="name"><br><br>
+
+    <input type="text" name="username" placeholder="Nombre de usuari@" id="username"><br><br>
+
+    <input type="date" name="birthdate" placeholder="Fecha de Nacimiento" id="birthdate"><br><br>
+
+    <input type="text" name="domicilio" placeholder="Domicilio" id="domicilio"><br><br>
+
+    <h4> Perfil de Usuario: </h4>
+    <label> Comprador: </label> 
+    <input type="radio" name="perfil" value="C">
+    <label> Vendedor:</label> 
+    <input type="radio" name="perfil" value="V"><br><br>
+
+    <h4> Intereses: </h4>
+    <input type="checkbox" name="interes" value="Electro">
+    <label for="Electro">Electro:</label><br><br>
+    <input type="checkbox" name="interes" value="Moda">
+    <label for="Moda">Moda:</label><br><br>
+    <input type="checkbox" name="interes" value="Hogar">
+    <label for="Hogar">Hogar:</label><br><br>
+    <input type="checkbox" name="interes" value="Juguetería">
+    <label for="Juguetería">Juguetería:</label><br><br>
+    <input type="checkbox" name="interes" value="Vida sana">
+    <label for="Vida sana">Vida sana:</label><br><br>
+    
+
+    <label> Foto de Usuario</label>
+    <input type="file" name="avatar" accept=".jpg"> <br><br>
+
+    <input type="password" name="password" placeholder="Contraseña"> <br><br>
+ 
+    <input type="password" name="password" placeholder="Confirma tu Contraseña"> <br><br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Cancelar</button>
+
+</body>
+</html>
